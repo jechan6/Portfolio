@@ -2702,7 +2702,11 @@ input, select, textarea {
 				margin-top: 0;
 				padding-top: 0;
 			}
-
+	a[ id="sec-2"]:target~#two div.skills {
+		-webkit-transform: translateY(500px);
+		transform: translateY(500px);
+	}
+		
 /* Poptrox */
 
 	@-moz-keyframes spin {
