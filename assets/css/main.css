@@ -1997,7 +1997,29 @@ input, select, textarea {
 		}
 
 /* Icon */
-
+	.js-icon {
+		color: yellow;	
+	}
+	.sky-blue {
+		color: skyblue;
+	}
+	.fa-node {
+		color: black;
+	}
+	.fa-css3-alt {
+		color: blue;
+	}
+	.fa-html5 {
+		color: red;
+	}
+	.skill-item {
+		text-align: center;
+		margin-right: 25px;
+	}
+	.icon-png {
+		height: 55px;
+		width: 55px;
+	}
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2575,10 +2597,9 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-position: top left, top left;
-		background-image: url("images/cover_pic.png"), url("../../images/cover_pic3.jpg");
+		background-image: url("images/overlay.png"), url("../../images/sf.jpg");
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								115%;
+		background-size: auto,								150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2969,6 +2990,7 @@ input, select, textarea {
 			#header {
 				padding: 6em 3em 3em 3em;
 				width: 30%;
+				background-size: auto, 240%;
 			}
 
 				#header h1 {
